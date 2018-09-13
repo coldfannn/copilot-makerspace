@@ -1,4 +1,14 @@
+body {
+  margin: 0;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+.banner {
+  width: 100vw;
+  height: 39.0625vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
