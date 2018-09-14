@@ -5,6 +5,7 @@ import "./styles.css";
 
 import { Abstract } from './components/abstract'
 import { Blank } from './components/blank'
+import { Divider } from './components/divider'
 import { Image } from './components/image'
 import images from './assets'
 import abstracts from './abstracts'
@@ -62,7 +63,11 @@ class App extends React.PureComponent {
         <div className='footer'>
           <p className='footer-gov'>指导单位：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海市人力资源和社会保障局&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国（上海）创业者公共实训基地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;共青团杨浦区委员会</p>
         </div>
-        <Blank height={ 101 } />
+        <Blank height={ 24 } />
+        <Divider width={ 1280 } />
+        <Blank height={ 18 } />
+        <p className='record'>© 2018 Copilot版权所有&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ICP证：沪ICP备18035215号</p>
+        <Blank height={ 36 } />
       </div>
     )
   }
