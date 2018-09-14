@@ -6,9 +6,10 @@ export const Abstract = (props) => {
     backgroundImage: `url(${ props.ballUrl })`
   }
   return (
-    <div>
-      <p>{ props.title }</p>
-      <p>{ props.description }</p>
+    <div className='abstract'>
+      { props.title && <p className='title'>{ props.title }</p> }
+      { props.description && <p className='description'>{ props.description }</p> }
+      { props.note && <p className='description'>{ props.note }</p> }
       <span style={ ballStyles }/>
     </div>
   )
