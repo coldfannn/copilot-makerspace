@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  box-sizing: border-box;
 }
 div {
   margin: 0 auto;
@@ -20,6 +21,7 @@ p {
   font-family: PingFangSC-Regular;
   text-align: center;
   color: #000000; 
+  width: 1024px;
 }
 
 .blank {
@@ -31,27 +33,26 @@ p {
   border-top: 1px solid #D8D8D8;
 }
 
-.abstract {
-  position: relative;
-}
 .abstract > .title {
-  height: 36px;
   margin-bottom: 24px;
+}
+.abstract > .title > p {
+  position: relative;
+  display: inline;
   font-size: 36px;
   line-height: 36px;
 }
-.abstract > .description {
-  height: 30px;
-  font-size: 20px;
-  line-height: 30px;
-}
-.abstract > span {
+.abstract > .title > p > span {
   position: absolute;
   z-index: -1;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.abstract > .description {
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .banner {
@@ -60,51 +61,51 @@ p {
 }
 
 .achieve {
-  width: 1280px;
-  height: 479px;
+  width: calc(1280px * 0.8);
+  height: calc(479px * 0.8);
 }
 
 .mentor-container-1 {
   width: 1281px;
 }
 .mentor-container-1 > section:first-child {
-  margin-right: 27px;
+  margin-right: calc(27px * 0.8);
 }
 .mentor-row-1 {
-  width: 627px;
-  height: 340px;
+  width: calc(627px * 0.8);
+  height: calc(340px * 0.8);
   float: left;
 }
 
 .mentor-container-2 {
-  width: 1292px;
+  width: calc(1292px * 0.8);
   height: auto;
 }
 .mentor-container-2 > section:first-child {
-  margin-right: 31px;
+  margin-right: calc(31px * 0.8);
 }
 .mentor-container-2 > section:last-child {
-  margin-left: 31px;
+  margin-left: calc(31px * 0.8);
 }
 .mentor-row-2 {
-  width: 410px;
-  height: 322px;
+  width: calc(410px * 0.8);
+  height: calc(322px * 0.8);
   float: left;
 }
 
 .calendar {
-  width: 970px;
-  height: 941px;
+  width: calc(970px * 0.8);
+  height: calc(941px * 0.8);
 }
 
 .procedure {
-  width: 1280px;
-  height: 400px;
+  width: calc(1280px * 0.8);
+  height: calc(400px * 0.8);
 }
 
 .cr-code {
-  width: 200px;
-  height: 200px;
+  width: calc(200px * 0.8);
+  height: calc(200px * 0.8);
 }
 
 .footer {
@@ -126,7 +127,7 @@ p {
 }
 
 .record {
-  width: 1280px;
+  width: calc(1280px * 0.8);
   margin: 0 auto;
   text-align: left;
   font-size: 14px;

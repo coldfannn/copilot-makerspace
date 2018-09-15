@@ -5,12 +5,19 @@ export const Abstract = (props) => {
     ...props.ballStyles,
     backgroundImage: `url(${ props.ballUrl })`
   }
+  const title = props.title && (
+    <div className='title'>
+      <p>
+        { props.title }
+        <span style={ ballStyles }/>
+      </p>
+    </div>
+  )
   return (
     <div className='abstract'>
-      { props.title && <p className='title'>{ props.title }</p> }
+      { title }
       { props.description && <p className='description'>{ props.description }</p> }
       { props.note && <p className='description'>{ props.note }</p> }
-      <span style={ ballStyles }/>
     </div>
   )
 }
