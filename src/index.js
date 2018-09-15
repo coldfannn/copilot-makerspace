@@ -58,7 +58,9 @@ class App extends React.PureComponent {
             <img src={ images.makerLogo } />
             <p className='footer-company'>承办单位：</p>
             <img src={ images.makerShLogo } />
-            <img src={ images.copilotLogo } />
+            <p className='copilot-logo'>
+              <img src={ images.copilotLogo } />
+            </p>
           </div>
           <Blank height={ 27 } />
           <div className='footer'>

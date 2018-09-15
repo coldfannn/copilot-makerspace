@@ -7,8 +7,7 @@ import circle5 from './5.png'
 export default [
   {
     title: '腾讯众创·菁英计划',
-    description: '“腾讯众创·菁英计划”是由腾讯众创空间和Copilot共同承办的沉浸式职场训练营。在为期 2个月的项目中，企业创始人将亲自带教实习，',
-    note: '腾讯高管和资深职场人士每周为你带来多维度培训赋能课程，更有资深投资人教你写BP！',
+    description: '“腾讯众创·菁英计划”是由腾讯众创空间和Copilot共同承办的沉浸式职场训练营。在为期 2个月的项目中，企业创始人将亲自带教实习，腾讯高管和资深职场人士每周为你带来多维度培训赋能课程，更有资深投资人教你写BP！',
     ballUrl: circle1,
     ballStyles: { width: 47, height: 47, top: -26, left: 290 },
   },
