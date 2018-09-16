@@ -64,7 +64,7 @@ class App extends React.PureComponent {
           </div>
           <Blank height={ 27 } />
           <div className='footer'>
-            <p className='footer-gov'>指导单位：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海市人力资源和社会保障局&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国（上海）创业者公共实训基地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;共青团杨浦区委员会</p>
+            <p className='footer-gov'>指导单位：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海市就业促进中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;杨浦区人力资源和社会保障局&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;共青团杨浦区委员会</p>
           </div>
           <Blank height={ 24 } />
           <Divider width={ 1024 } />
